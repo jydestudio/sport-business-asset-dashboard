@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkexb_client=self.webpackChunkexb_client||[]).push([["your-extensions_widgets_share-code-chunk_common_my-module_ts"],{5096:(e,n,s)=>{function i(e){return`This is the module, calling a common function. ${function(e){return`This is the function, passing on a message from ${e}.`}(e)}`}s.r(n),s.d(n,{f1:()=>i})}}]);

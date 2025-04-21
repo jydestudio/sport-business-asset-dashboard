@@ -1,0 +1,2198 @@
+{
+  "pages": {
+    "home": {
+      "type": "NORMAL",
+      "mode": "FIT_WINDOW",
+      "layout": {
+        "LARGE": "layout_1",
+        "MEDIUM": "layout_36",
+        "SMALL": "layout_46"
+      },
+      "isVisible": true,
+      "isDefault": true,
+      "id": "home",
+      "header": true,
+      "footer": false,
+      "label": "Page",
+      "bodyBackgroundColor": "var(--dark-700)"
+    }
+  },
+  "layouts": {
+    "layout_1": {
+      "type": "FIXED",
+      "order": [
+        "1"
+      ],
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "top": "0px",
+            "width": "100.0%",
+            "height": "100.0%",
+            "right": "0px",
+            "bottom": "0px"
+          },
+          "widgetId": "widget_6",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      }
+    },
+    "layout_7": {
+      "type": "FIXED",
+      "order": [
+        "0",
+        "2",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_65",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "-0.2%",
+            "bottom": "44.7%",
+            "width": "100.0%",
+            "height": "55.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_67",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "78.3%",
+            "bottom": "1.2%",
+            "width": "100.0%",
+            "height": "20.5%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_69",
+          "bbox": {
+            "left": "0.7%",
+            "right": "0.0%",
+            "top": "56.3%",
+            "bottom": "22.8%",
+            "width": "99.3%",
+            "height": "20.9%"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO",
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "label": "First"
+    },
+    "layout_14": {
+      "type": "FIXED",
+      "order": [
+        "1"
+      ],
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_28",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "label": "Second"
+    },
+    "layout_34": {
+      "content": {
+        "6": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "12.5%",
+            "right": "0.5%",
+            "top": "56.6%",
+            "bottom": "1.5%",
+            "width": "87.0%",
+            "height": "41.9%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "widgetId": "widget_59"
+        },
+        "7": {
+          "type": "WIDGET",
+          "widgetId": "widget_66",
+          "bbox": {
+            "left": "0.2%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "44.8%",
+            "width": "99.8%",
+            "height": "55.2%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            }
+          }
+        },
+        "8": {
+          "type": "WIDGET",
+          "widgetId": "widget_68",
+          "bbox": {
+            "left": "0.1%",
+            "right": "87.9%",
+            "top": "56.4%",
+            "bottom": "1.2%",
+            "width": "12.0%",
+            "height": "42.4%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "order": [
+        "7",
+        "8",
+        "6"
+      ],
+      "label": "First"
+    },
+    "layout_35": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_29",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "order": [
+        "0"
+      ],
+      "label": "Second"
+    },
+    "layout_36": {
+      "type": "FIXED",
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "top": "0px",
+            "width": "39.072%",
+            "height": "50.00px",
+            "right": "0px"
+          },
+          "widgetId": "widget_30",
+          "setting": {
+            "autoProps": {
+              "width": "STRETCH"
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "top": "50.00px",
+            "width": "100%",
+            "height": "100%",
+            "right": "0px",
+            "bottom": "0px"
+          },
+          "widgetId": "widget_31",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH",
+              "width": "STRETCH",
+              "top": false,
+              "bottom": false,
+              "left": false,
+              "right": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      }
+    },
+    "layout_37": {
+      "type": "FIXED",
+      "order": [
+        "5"
+      ],
+      "content": {
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_41",
+          "bbox": {
+            "left": "10.00px",
+            "right": "20.5%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "450.00px",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH"
+            },
+            "vCenter": false
+          }
+        }
+      },
+      "label": "Default"
+    },
+    "layout_40": {
+      "type": "FIXED",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_32",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "label": "First"
+    },
+    "layout_41": {
+      "type": "FIXED",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "label": "Second"
+    },
+    "layout_42": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_29",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "order": [
+        "0"
+      ],
+      "label": "First"
+    },
+    "layout_45": {
+      "content": {},
+      "type": "FIXED",
+      "order": [],
+      "label": "Second"
+    },
+    "layout_46": {
+      "type": "FIXED",
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "top": "0px",
+            "width": "39.072%",
+            "height": "50.00px",
+            "right": "0px"
+          },
+          "widgetId": "widget_33",
+          "setting": {
+            "autoProps": {
+              "width": "STRETCH"
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "top": "50.00px",
+            "width": "100%",
+            "height": "100%",
+            "right": "0px",
+            "bottom": "0px"
+          },
+          "widgetId": "widget_34",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH",
+              "width": "STRETCH",
+              "top": false,
+              "bottom": false,
+              "left": false,
+              "right": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      }
+    },
+    "layout_47": {
+      "type": "FIXED",
+      "order": [
+        "5"
+      ],
+      "content": {
+        "5": {
+          "type": "WIDGET",
+          "widgetId": "widget_42",
+          "bbox": {
+            "left": "10.00px",
+            "right": "36.3%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "260.00px",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH"
+            },
+            "vCenter": false
+          }
+        }
+      },
+      "label": "Default"
+    },
+    "layout_50": {
+      "type": "FIXED",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_35",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "label": "First"
+    },
+    "layout_51": {
+      "type": "FIXED",
+      "order": [
+        "0"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "label": "Second"
+    },
+    "layout_52": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_29",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "order": [
+        "0"
+      ],
+      "label": "First"
+    },
+    "layout_55": {
+      "content": {},
+      "type": "FIXED",
+      "order": [],
+      "label": "Second"
+    },
+    "layout_56": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_37",
+          "bbox": {
+            "left": "7px",
+            "right": "21px",
+            "top": "-0.0%",
+            "bottom": "0.0%",
+            "width": "97.8%",
+            "height": "46px"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_57": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_38",
+          "bbox": {
+            "left": "14.00px",
+            "right": "300.00px",
+            "top": "50%",
+            "bottom": "22.5%",
+            "width": "25.0%",
+            "height": "28.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "vCenter": true
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_39",
+          "bbox": {
+            "left": "87.4%",
+            "right": "14.00px",
+            "top": "50%",
+            "bottom": "20.0%",
+            "width": "1.7%",
+            "height": "80.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "AUTO",
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true
+          }
+        }
+      },
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "1",
+        "0"
+      ]
+    },
+    "layout_58": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_38",
+          "bbox": {
+            "left": "10.00px",
+            "right": "180.00px",
+            "top": "50%",
+            "bottom": "22.5%",
+            "width": "25.0%",
+            "height": "28.00px"
+          },
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true,
+              "width": "STRETCH"
+            },
+            "vCenter": true
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_39",
+          "bbox": {
+            "left": "87.4%",
+            "right": "14.00px",
+            "top": "50%",
+            "bottom": "20.0%",
+            "width": "1.7%",
+            "height": "80.0%"
+          },
+          "setting": {
+            "autoProps": {
+              "width": "AUTO",
+              "height": "AUTO",
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": true
+          }
+        }
+      },
+      "type": "FIXED",
+      "setting": {
+        "lockDescendants": true
+      },
+      "order": [
+        "1",
+        "0"
+      ]
+    },
+    "layout_60": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_36",
+          "bbox": {
+            "width": "194px",
+            "height": "39px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO",
+              "width": "STRETCH"
+            },
+            "style": {
+              "alignSelf": "center"
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_2",
+          "bbox": {
+            "width": "36px",
+            "height": "36px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "heightMode": "ratio",
+            "aspectRatio": 1,
+            "style": {
+              "alignSelf": "center"
+            }
+          }
+        }
+      },
+      "type": "FLEX_ROW",
+      "order": [
+        "1",
+        "0"
+      ],
+      "label": "Default"
+    },
+    "layout_61": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_36",
+          "bbox": {
+            "width": "64px",
+            "height": "39px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO",
+              "width": "STRETCH"
+            },
+            "style": {
+              "alignSelf": "center"
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_2",
+          "bbox": {
+            "width": "36px",
+            "height": "36px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "CUSTOM"
+            },
+            "heightMode": "ratio",
+            "aspectRatio": 1,
+            "style": {
+              "alignSelf": "center"
+            }
+          }
+        }
+      },
+      "type": "FLEX_ROW",
+      "order": [
+        "1",
+        "0"
+      ],
+      "label": "Default"
+    },
+    "layout_62": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_43",
+          "bbox": {
+            "left": "50%",
+            "right": "0.0000%",
+            "top": "50%",
+            "bottom": "0.0000%",
+            "width": "90.00%",
+            "height": "90.00%"
+          },
+          "setting": {
+            "vCenter": true,
+            "hCenter": true
+          }
+        }
+      },
+      "order": [
+        "0"
+      ],
+      "setting": {
+        "lockDescendants": true
+      }
+    },
+    "layout_64": {
+      "content": {},
+      "type": "FIXED",
+      "label": "Map FixedLayout"
+    },
+    "layout_65": {
+      "content": {},
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "order": []
+    }
+  },
+  "widgets": {
+    "widget_2": {
+      "id": "widget_2",
+      "uri": "widgets/common/image/",
+      "config": {
+        "functionConfig": {
+          "altText": "",
+          "toolTip": "",
+          "linkParam": {},
+          "scale": "Fit",
+          "imageParam": {
+            "cropParam": {
+              "cropShape": "circle",
+              "svgPath": "M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14z",
+              "svgViewBox": "0 0 28 28"
+            }
+          }
+        },
+        "styleConfig": {}
+      },
+      "version": "1.17.0",
+      "label": "Image"
+    },
+    "widget_6": {
+      "id": "widget_6",
+      "uri": "widgets/layout/sidebar/",
+      "config": {
+        "direction": "HORIZONTAL",
+        "collapseSide": "FIRST",
+        "overlay": false,
+        "size": "472px",
+        "divider": {
+          "visible": true
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "icon": "LEFT",
+          "offsetX": 20,
+          "offsetY": 0,
+          "position": "CENTER",
+          "iconSize": 18,
+          "width": 20,
+          "height": 50,
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": true,
+                "color": "var(--dark-800)"
+              },
+              "bg": {
+                "useTheme": false,
+                "color": "var(--light-300)",
+                "opacity": 0.6
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": false,
+                "color": "var(--light-300)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "0 4px 4px 0"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "0 4px 4px 0"
+            }
+          },
+          "template": "rect",
+          "border": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "defaultState": 1
+      },
+      "layouts": {
+        "FIRST": {
+          "LARGE": "layout_7"
+        },
+        "SECOND": {
+          "LARGE": "layout_14"
+        }
+      },
+      "version": "1.17.0",
+      "label": "Sidebar"
+    },
+    "widget_28": {
+      "uri": "widgets/layout/sidebar/",
+      "version": "1.17.0",
+      "config": {
+        "direction": "VERTICAL",
+        "collapseSide": "SECOND",
+        "overlay": false,
+        "size": "300px",
+        "divider": {
+          "visible": true,
+          "lineStyle": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "iconSource": 0,
+          "icon": "DOWN",
+          "offsetX": 0,
+          "offsetY": -15,
+          "position": "CENTER",
+          "iconSize": 14,
+          "width": 60,
+          "height": 15,
+          "border": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          },
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": false,
+                "color": "var(--black)"
+              },
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "92px 92px 0 0"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "92px 92px 0 0"
+            }
+          }
+        },
+        "defaultState": 0
+      },
+      "id": "widget_28",
+      "layouts": {
+        "FIRST": {
+          "LARGE": "layout_34"
+        },
+        "SECOND": {
+          "LARGE": "layout_35"
+        }
+      },
+      "label": "Sidebar 2"
+    },
+    "widget_29": {
+      "uri": "widgets/common/table/",
+      "version": "1.17.0",
+      "config": {
+        "layersConfig": [],
+        "mapViewsConfig": null,
+        "tableMode": "MAP",
+        "arrangeType": "TABS",
+        "enableMapExtentFilter": true
+      },
+      "id": "widget_29",
+      "useMapWidgetIds": [],
+      "label": "Table"
+    },
+    "widget_30": {
+      "id": "widget_30",
+      "uri": "widgets/layout/fixed/",
+      "config": {},
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "var(--primary-600)"
+        },
+        "boxShadow": {
+          "offsetX": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "distance": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "distance": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "color": "rgba(0,0,0,0.5)"
+        }
+      },
+      "version": "1.17.0",
+      "layouts": {
+        "DEFAULT": {
+          "MEDIUM": "layout_37"
+        }
+      },
+      "label": "Fixed Panel 2"
+    },
+    "widget_31": {
+      "id": "widget_31",
+      "uri": "widgets/layout/sidebar/",
+      "config": {
+        "direction": "VERTICAL",
+        "collapseSide": "SECOND",
+        "overlay": false,
+        "size": "400px",
+        "divider": {
+          "visible": true
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "icon": "DOWN",
+          "offsetX": 0,
+          "offsetY": -15,
+          "position": "CENTER",
+          "iconSize": 18,
+          "width": 40,
+          "height": 15,
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": true,
+                "color": "var(--dark-800)"
+              },
+              "bg": {
+                "useTheme": false,
+                "color": "var(--light-100)",
+                "opacity": 0.6
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": false,
+                "color": "var(--light-200)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "4px 4px 0 0"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "4px 4px 0 0"
+            }
+          },
+          "template": "rect",
+          "border": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "defaultState": 1
+      },
+      "version": "1.17.0",
+      "layouts": {
+        "FIRST": {
+          "MEDIUM": "layout_40"
+        },
+        "SECOND": {
+          "MEDIUM": "layout_41"
+        }
+      },
+      "label": "Sidebar 3"
+    },
+    "widget_32": {
+      "uri": "widgets/layout/sidebar/",
+      "version": "1.17.0",
+      "config": {
+        "direction": "VERTICAL",
+        "collapseSide": "FIRST",
+        "overlay": false,
+        "size": "200px",
+        "divider": {
+          "visible": true,
+          "lineStyle": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "iconSource": 0,
+          "icon": "UP",
+          "offsetX": 0,
+          "offsetY": 15,
+          "position": "CENTER",
+          "iconSize": 14,
+          "width": 60,
+          "height": 15,
+          "border": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          },
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": false,
+                "color": "var(--black)"
+              },
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "0 0 92px 92px"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "0 0 92px 92px"
+            }
+          }
+        },
+        "defaultState": 0
+      },
+      "id": "widget_32",
+      "layouts": {
+        "FIRST": {
+          "MEDIUM": "layout_42"
+        },
+        "SECOND": {
+          "MEDIUM": "layout_45"
+        }
+      },
+      "label": "Sidebar 4"
+    },
+    "widget_33": {
+      "id": "widget_33",
+      "uri": "widgets/layout/fixed/",
+      "config": {},
+      "style": {
+        "background": {
+          "image": {
+            "url": ""
+          },
+          "color": "var(--primary-600)"
+        },
+        "boxShadow": {
+          "offsetX": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "offsetY": {
+            "distance": 2,
+            "unit": "px"
+          },
+          "blur": {
+            "distance": 4,
+            "unit": "px"
+          },
+          "spread": {
+            "distance": 0,
+            "unit": "px"
+          },
+          "color": "rgba(0,0,0,0.5)"
+        }
+      },
+      "version": "1.17.0",
+      "layouts": {
+        "DEFAULT": {
+          "SMALL": "layout_47"
+        }
+      },
+      "label": "Fixed Panel 3"
+    },
+    "widget_34": {
+      "id": "widget_34",
+      "uri": "widgets/layout/sidebar/",
+      "config": {
+        "direction": "VERTICAL",
+        "collapseSide": "SECOND",
+        "overlay": false,
+        "size": "300px",
+        "divider": {
+          "visible": true
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "icon": "DOWN",
+          "offsetX": 0,
+          "offsetY": -15,
+          "position": "CENTER",
+          "iconSize": 18,
+          "width": 40,
+          "height": 15,
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": true,
+                "color": "var(--dark-800)"
+              },
+              "bg": {
+                "useTheme": false,
+                "color": "var(--light-100)",
+                "opacity": 0.6
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": false,
+                "color": "var(--light-200)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "4px 4px 0 0"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "4px 4px 0 0"
+            }
+          },
+          "template": "rect",
+          "border": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "defaultState": 1
+      },
+      "version": "1.17.0",
+      "layouts": {
+        "FIRST": {
+          "SMALL": "layout_50"
+        },
+        "SECOND": {
+          "SMALL": "layout_51"
+        }
+      },
+      "label": "Sidebar 5"
+    },
+    "widget_35": {
+      "uri": "widgets/layout/sidebar/",
+      "version": "1.17.0",
+      "config": {
+        "direction": "VERTICAL",
+        "collapseSide": "FIRST",
+        "overlay": false,
+        "size": "200px",
+        "divider": {
+          "visible": true,
+          "lineStyle": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "iconSource": 0,
+          "icon": "UP",
+          "offsetX": 0,
+          "offsetY": 15,
+          "position": "CENTER",
+          "iconSize": 14,
+          "width": 60,
+          "height": 15,
+          "border": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          },
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": false,
+                "color": "var(--black)"
+              },
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--light)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "0 0 92px 92px"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "0 0 92px 92px"
+            }
+          }
+        },
+        "defaultState": 0
+      },
+      "id": "widget_35",
+      "layouts": {
+        "FIRST": {
+          "SMALL": "layout_52"
+        },
+        "SECOND": {
+          "SMALL": "layout_55"
+        }
+      },
+      "label": "Sidebar 6"
+    },
+    "widget_36": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "config": {
+        "placeholder": "<p><strong style=\"font-size: 20px; color: var(--light);\">Double click to edit text</strong></p>",
+        "style": {
+          "color": "var(--light)",
+          "wrap": false
+        },
+        "text": "<p></p>"
+      },
+      "id": "widget_36",
+      "label": "Text"
+    },
+    "widget_37": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "config": {
+        "text": "<h1><strong style=\"font-size: 24px;\">﻿SPORTS BUSINESS ASSETS - GIS DASHBOARD</strong></h1>",
+        "style": {
+          "color": "var(--dark)"
+        }
+      },
+      "id": "widget_37",
+      "label": "Text 2"
+    },
+    "widget_38": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "config": {
+        "placeholder": "<p><span style=\"color: var(--dark);\">Double click to edit text</span></p>",
+        "text": "<p></p>",
+        "style": {
+          "color": "var(--dark)"
+        }
+      },
+      "id": "widget_38",
+      "label": "Text 3"
+    },
+    "widget_39": {
+      "uri": "widgets/common/share/",
+      "version": "1.17.0",
+      "offPanel": true,
+      "config": {
+        "uiMode": "INLINE",
+        "popup": {
+          "icon": "",
+          "items": [
+            {
+              "id": "embed",
+              "enable": true
+            },
+            {
+              "id": "qrcode",
+              "enable": true
+            },
+            {
+              "id": "email",
+              "enable": true
+            },
+            {
+              "id": "facebook",
+              "enable": true
+            },
+            {
+              "id": "twitter",
+              "enable": true
+            },
+            {
+              "id": "pinterest",
+              "enable": true
+            },
+            {
+              "id": "linkedin",
+              "enable": true
+            }
+          ],
+          "tooltip": ""
+        },
+        "inline": {
+          "items": [
+            {
+              "id": "facebook",
+              "enable": true
+            },
+            {
+              "id": "twitter",
+              "enable": true
+            },
+            {
+              "id": "pinterest",
+              "enable": false
+            },
+            {
+              "id": "linkedin",
+              "enable": false
+            },
+            {
+              "id": "embed",
+              "enable": false
+            },
+            {
+              "id": "qrcode",
+              "enable": true
+            },
+            {
+              "id": "email",
+              "enable": false
+            },
+            {
+              "id": "sharelink",
+              "enable": true
+            }
+          ],
+          "design": {
+            "direction": "HORIZONTAL",
+            "hideLabel": true,
+            "btnRad": 0,
+            "btnColor": "",
+            "iconColor": "",
+            "size": "sm",
+            "labelColor": "var(--dark)"
+          }
+        }
+      },
+      "id": "widget_39",
+      "label": "Share"
+    },
+    "widget_41": {
+      "uri": "widgets/layout/flowrow/",
+      "version": "1.17.0",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_41",
+      "layouts": {
+        "DEFAULT": {
+          "MEDIUM": "layout_60"
+        }
+      },
+      "label": "Flow Row 2"
+    },
+    "widget_42": {
+      "uri": "widgets/layout/flowrow/",
+      "version": "1.17.0",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_42",
+      "layouts": {
+        "DEFAULT": {
+          "SMALL": "layout_61"
+        }
+      },
+      "label": "Flow Row 3"
+    },
+    "widget_43": {
+      "uri": "widgets/common/text/",
+      "version": "1.17.0",
+      "config": {
+        "text": "<p><span style=\"font-size: 18px;\">Lorem ipsum dolor sit amet</span></p><p><br></p><p><img src=\"data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfNjE1XzIxODEpIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE2IDBIMFYxNkgxNlYwWk03LjUgNS43NUM3LjUgNi4xNjQyMSA3LjE2NDIxIDYuNSA2Ljc1IDYuNUM2LjMzNTc5IDYuNSA2IDYuMTY0MjEgNiA1Ljc1QzYgNS4zMzU3OSA2LjMzNTc5IDUgNi43NSA1QzcuMTY0MjEgNSA3LjUgNS4zMzU3OSA3LjUgNS43NVpNNy4yODU3MSA5Ljg0NDM1TDUuNSA3LjUzMzI0TDMgMTAuOTk5OUgxM0w5Ljc4NTcyIDYuMzc3NjlMNy4yODU3MSA5Ljg0NDM1WiIgZmlsbD0iI2NjYyIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImNsaXAwXzYxNV8yMTgxIj48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM0NDQiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=\" data-name=\"svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBjbGlwLXBhdGg9InVybCgjY2xpcDBfNjE1XzIxODEpIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE2IDBIMFYxNkgxNlYwWk03LjUgNS43NUM3LjUgNi4xNjQyMSA3LjE2NDIxIDYuNSA2Ljc1IDYuNUM2LjMzNTc5IDYuNSA2IDYuMTY0MjEgNiA1Ljc1QzYgNS4zMzU3OSA2LjMzNTc5IDUgNi43NSA1QzcuMTY0MjEgNSA3LjUgNS4zMzU3OSA3LjUgNS43NVpNNy4yODU3MSA5Ljg0NDM1TDUuNSA3LjUzMzI0TDMgMTAuOTk5OUgxM0w5Ljc4NTcyIDYuMzc3NjlMNy4yODU3MSA5Ljg0NDM1WiIgZmlsbD0iI2NjYyIvPjwvZz48ZGVmcz48Y2xpcFBhdGggaWQ9ImNsaXAwXzYxNV8yMTgxIj48cmVjdCB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIGZpbGw9IiM0NDQiLz48L2NsaXBQYXRoPjwvZGVmcz48L3N2Zz4=\" width=\"145\" style=\"display: block; float: left; margin: 0px 0.9em 0.9em 0px; width: 31.66%;\">Ne debet assentior qui. Zril salutandi comprehensam an qui, nam no semper temporibus dissentiet, eleifend antiopam evertitur at sed. An wisi efficiendi sit.</p><p><br></p><p>Vel ea mentitum dissentiet, partem saperet accumsan vim ex, meliore repudiare consetetur et has.</p><p><br></p><p>Eu nostrum volutpat maluisset has, per ea homero utamur, ius ut wisi nominati. Sumo denique appareat.</p><p><br></p><p>Inermis vituperatoribus et ius. Aeque tritani eu qui, ne pri euripidis, mandamus reprimique te vix. Ei case atqui sonet vim.</p>"
+      },
+      "id": "widget_43",
+      "label": "Text 4"
+    },
+    "widget_59": {
+      "uri": "widgets/get-map-coordinates/",
+      "version": "1.17.0",
+      "config": {},
+      "id": "widget_59",
+      "useMapWidgetIds": [
+        "widget_66"
+      ],
+      "style": {
+        "background": {
+          "color": "var(--dark-800)",
+          "fillType": "fill",
+          "image": {
+            "url": ""
+          }
+        }
+      },
+      "label": "get-map-coordinates 3"
+    },
+    "widget_65": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.17.0",
+      "label": "Map",
+      "config": {
+        "toolConfig": {
+          "canZoom": false,
+          "canHome": true,
+          "canSearch": false,
+          "canNavigation": false,
+          "canOverviewMap": false
+        },
+        "isUseCustomMapState": true,
+        "initialMapDataSourceID": "dataSource_4",
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 144447.638572,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": 5155620.425590713,
+              "y": 2824608.676376959
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": 5146180.452597506,
+            "ymin": 2816697.4439494535,
+            "xmax": 5165060.398583919,
+            "ymax": 2832519.908804464
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
+        "scaleRange": null,
+        "layoutIndex": 0
+      },
+      "id": "widget_65",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_64"
+        }
+      },
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "isOperationalLayer": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_4",
+          "mainDataSourceId": "dataSource_4"
+        }
+      ]
+    },
+    "widget_66": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.17.0",
+      "label": "Map 2",
+      "config": {
+        "toolConfig": {
+          "canZoom": false,
+          "canHome": true,
+          "canSearch": false,
+          "canNavigation": false
+        },
+        "isUseCustomMapState": true,
+        "initialMapDataSourceID": "dataSource_3",
+        "initialMapState": {
+          "viewPoint": {
+            "rotation": 0,
+            "scale": 144447.638572,
+            "targetGeometry": {
+              "spatialReference": {
+                "latestWkid": 3857,
+                "wkid": 102100
+              },
+              "x": 5156330.390941596,
+              "y": 2823042.2479802184
+            }
+          },
+          "extent": {
+            "spatialReference": {
+              "latestWkid": 3857,
+              "wkid": 102100
+            },
+            "xmin": 5141406.061168935,
+            "ymin": 2815188.343323927,
+            "xmax": 5171254.720714256,
+            "ymax": 2830896.15263651
+          },
+          "rotation": 0,
+          "viewType": "2d"
+        },
+        "scaleRange": null,
+        "clientQueryDataSourceIds": []
+      },
+      "id": "widget_66",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_65"
+        }
+      },
+      "dataActions": {
+        "showOnMap": {
+          "config": {
+            "isUseCustomSymbol": true,
+            "isOperationalLayer": true,
+            "symbolOption": {
+              "pointSymbol": {
+                "type": "esriSMS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "angle": 0,
+                "xoffset": 0,
+                "yoffset": 0,
+                "size": 12,
+                "style": "esriSMSCircle",
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                }
+              },
+              "polylineSymbol": {
+                "type": "esriSLS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "width": 0.75,
+                "style": "esriSLSSolid"
+              },
+              "polygonSymbol": {
+                "type": "esriSFS",
+                "color": [
+                  255,
+                  255,
+                  0,
+                  150
+                ],
+                "outline": {
+                  "type": "esriSLS",
+                  "color": [
+                    255,
+                    255,
+                    0,
+                    150
+                  ],
+                  "width": 1,
+                  "style": "esriSLSSolid"
+                },
+                "style": "esriSFSSolid"
+              }
+            }
+          }
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_3",
+          "mainDataSourceId": "dataSource_3"
+        }
+      ]
+    },
+    "widget_67": {
+      "uri": "widgets/arcgis/legend/",
+      "version": "1.17.0",
+      "label": "Legend 3",
+      "config": {
+        "cardStyle": false,
+        "style": {
+          "useCustom": true,
+          "background": {
+            "color": "var(--dark-900)",
+            "fillType": "fill"
+          },
+          "fontColor": "var(--light-100)"
+        }
+      },
+      "id": "widget_67",
+      "useMapWidgetIds": [
+        "widget_65"
+      ]
+    },
+    "widget_68": {
+      "uri": "widgets/arcgis/legend/",
+      "version": "1.17.0",
+      "label": "Legend 4",
+      "config": {
+        "style": {
+          "useCustom": true,
+          "background": {
+            "color": "var(--dark-700)",
+            "fillType": "fill"
+          },
+          "fontColor": "var(--light-100)"
+        }
+      },
+      "id": "widget_68",
+      "useMapWidgetIds": [
+        "widget_66"
+      ]
+    },
+    "widget_69": {
+      "uri": "widgets/common/timeline/",
+      "version": "1.17.0",
+      "offPanel": true,
+      "label": "Timeline",
+      "config": {
+        "dataSourceType": "FEATURE_LAYER",
+        "honorTimeSettings": false,
+        "timeStyle": "CLASSIC",
+        "enablePlayControl": true,
+        "autoPlay": false,
+        "LoopContinuously": false,
+        "timeSettings": {
+          "layerList": null,
+          "startTime": {
+            "value": 1630491181645.542
+          },
+          "endTime": {
+            "value": 1905628413367.019
+          },
+          "timeDisplayStrategy": "CURRENT",
+          "dividedCount": 10,
+          "accuracy": "year",
+          "stepLength": null,
+          "speed": "MEDIUM"
+        },
+        "enableDisplayAccuracy": false,
+        "displayAccuracy": "second",
+        "backgroundColor": "var(--dark-900)",
+        "sliderColor": "var(--light)",
+        "foregroundColor": "var(--light)"
+      },
+      "id": "widget_69",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_3-194ceb04004-layer-1",
+          "mainDataSourceId": "dataSource_3-194ceb04004-layer-1",
+          "rootDataSourceId": "dataSource_3"
+        },
+        {
+          "dataSourceId": "dataSource_4-194ceb04004-layer-1",
+          "mainDataSourceId": "dataSource_4-194ceb04004-layer-1",
+          "rootDataSourceId": "dataSource_4"
+        }
+      ]
+    }
+  },
+  "exbVersion": "1.17.0",
+  "mainSizeMode": "LARGE",
+  "theme": "themes/morandi/",
+  "forBuilderAttributes": {
+    "lockLayout": false
+  },
+  "template": "jewelrybox",
+  "widgetsManifest": {},
+  "views": {},
+  "sections": {},
+  "dialogs": {
+    "dialog_2": {
+      "id": "dialog_2",
+      "mode": "FIXED",
+      "blockPage": true,
+      "sizeMode": {
+        "LARGE": {
+          "position": "MIDDLE_CENTER",
+          "width": "480px",
+          "height": "360px",
+          "offsetX": 0,
+          "offsetY": 0,
+          "widthMode": "CUSTOM",
+          "heightMode": "CUSTOM"
+        }
+      },
+      "interactionType": null,
+      "interactionStyles": null,
+      "confirmBeforeClose": true,
+      "alwaysShowConfirmation": false,
+      "dialogBackground": {
+        "color": "var(--light)",
+        "fillType": "fill",
+        "image": {
+          "url": ""
+        }
+      },
+      "overlayColor": "var(--dark-900)",
+      "layout": {
+        "LARGE": "layout_62"
+      },
+      "index": 0,
+      "isSplash": false,
+      "border": {
+        "color": "var(--light-300)",
+        "type": "solid",
+        "width": "2px"
+      },
+      "label": "Window"
+    }
+  },
+  "messageConfigs": {},
+  "pageStructure": [
+    {
+      "home": []
+    }
+  ],
+  "originExbVersion": "1.17.0",
+  "controllerPanels": {},
+  "placeholderInfos": {
+    "1": {
+      "id": 1,
+      "rootContainer": {
+        "type": "pages",
+        "id": "home"
+      },
+      "layoutInfo": {
+        "layoutId": "layout_7",
+        "layoutItemId": "0"
+      },
+      "syncs": {
+        "SMALL": {
+          "layoutId": "layout_51",
+          "layoutItemId": "0"
+        },
+        "MEDIUM": {
+          "layoutId": "layout_41",
+          "layoutItemId": "0"
+        }
+      }
+    }
+  },
+  "publishTimestamp": 1745219897061,
+  "useAutoSortInFixedLayout": true,
+  "header": {
+    "layout": {
+      "LARGE": "layout_56"
+    },
+    "height": {
+      "LARGE": 46
+    },
+    "backgroundColor": "var(--danger-400)"
+  },
+  "footer": {
+    "layout": {
+      "LARGE": "layout_57",
+      "SMALL": "layout_58"
+    },
+    "height": {
+      "LARGE": "30px"
+    },
+    "backgroundColor": "var(--primary-200)"
+  },
+  "attributes": {
+    "portalUrl": "https://egisenv.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "MDBc2rqs1TqJO7wc",
+    "express": false,
+    "title": "Untitled experience 1",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
+  },
+  "sharedThemeVariables": {
+    "header": {},
+    "body": {},
+    "button": {},
+    "logo": {}
+  },
+  "dataSources": {
+    "dataSource_1": {
+      "id": "dataSource_1",
+      "type": "WEB_MAP",
+      "sourceLabel": "Sports Business Asset",
+      "itemId": "e5d013e4b3864b4fb352ab5c37a26618",
+      "portalUrl": "https://egisenv.maps.arcgis.com",
+      "childDataSourceJsons": {
+        "194ceb04004-layer-1": {
+          "id": "dataSource_1-194ceb04004-layer-1",
+          "type": "FEATURE_LAYER",
+          "sourceLabel": "Sports_Business_Asset",
+          "portalUrl": "https://www.arcgis.com",
+          "itemId": "cf1844fb323640f1b265219fc588f4f3",
+          "layerId": "0",
+          "url": "https://services1.arcgis.com/Y68WgAIwaOZLUvnp/arcgis/rest/services/Sports_Business_Asset/FeatureServer/0",
+          "disableExport": false,
+          "exportOptions": {
+            "formats": [
+              "CSV",
+              "JSON",
+              "GeoJSON",
+              "Item"
+            ]
+          }
+        },
+        "194d0a3733a-layer-2": {
+          "id": "dataSource_1-194d0a3733a-layer-2",
+          "type": "GROUP_LAYER",
+          "sourceLabel": "District Boundary",
+          "childDataSourceJsons": {
+            "194d0a375a4-layer-5": {
+              "id": "dataSource_1-194d0a3733a-layer-2-194d0a375a4-layer-5",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "D-09 Boundary",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "3c2dd880fbc4483cabeb645ea373c5ff",
+              "layerId": "0",
+              "url": "https://services1.arcgis.com/Y68WgAIwaOZLUvnp/arcgis/rest/services/District_Boundary/FeatureServer/0"
+            },
+            "194d0a375a3-layer-4": {
+              "id": "dataSource_1-194d0a3733a-layer-2-194d0a375a3-layer-4",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "D-11 Boundary",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "3c2dd880fbc4483cabeb645ea373c5ff",
+              "layerId": "1",
+              "url": "https://services1.arcgis.com/Y68WgAIwaOZLUvnp/arcgis/rest/services/District_Boundary/FeatureServer/1"
+            },
+            "194d0a375a0-layer-3": {
+              "id": "dataSource_1-194d0a3733a-layer-2-194d0a375a0-layer-3",
+              "type": "FEATURE_LAYER",
+              "sourceLabel": "D-13 Boundary",
+              "portalUrl": "https://www.arcgis.com",
+              "itemId": "3c2dd880fbc4483cabeb645ea373c5ff",
+              "layerId": "2",
+              "url": "https://services1.arcgis.com/Y68WgAIwaOZLUvnp/arcgis/rest/services/District_Boundary/FeatureServer/2"
+            }
+          }
+        }
+      },
+      "isHidden": false
+    },
+    "dataSource_2": {
+      "id": "dataSource_2",
+      "type": "WEB_MAP",
+      "sourceLabel": "Sports Business Asset_test",
+      "itemId": "69b60501680746cc81957a505ee963d4",
+      "portalUrl": "https://egisenv.maps.arcgis.com"
+    },
+    "dataSource_3": {
+      "id": "dataSource_3",
+      "type": "WEB_MAP",
+      "sourceLabel": "Stage gate map",
+      "itemId": "ed11e1378da74f048f9acbc750b2d505",
+      "portalUrl": "https://egisenv.maps.arcgis.com"
+    },
+    "dataSource_4": {
+      "id": "dataSource_4",
+      "type": "WEB_MAP",
+      "sourceLabel": "Status web map",
+      "itemId": "daea8cef2700409d9cd5b5d1e6b77642",
+      "portalUrl": "https://egisenv.maps.arcgis.com"
+    }
+  },
+  "timestamp": 1745219896284
+}
